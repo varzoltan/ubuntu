@@ -83,3 +83,13 @@ img {
     margin: 0 auto;
     display: block;
 }
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #f15d22;
+}
+
+a :hover {
+    color: #a0a0a0;
+}
