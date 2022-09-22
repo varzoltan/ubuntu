@@ -1,0 +1,85 @@
+* {
+    /*margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+}
+
+body {
+    color: #4f4f4f;
+    background-color: #f9f9f9;
+    font-family: ubuntu, sans-serif v;
+    font-size: 14px;
+}
+
+#keret {
+    width: 1125px;
+    border: 1px #e0e0e0;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0;
+}
+
+#fejlec {
+    width: 1125px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background-image: url("omg.png");
+}
+
+#lablec {
+    content: "";
+    display: table;
+    clear: both;
+    color: #808080;
+    width: 1125px; /*El van írva szerintem az 1085, mert nincs olyan széles mint a fejléc*/
+    margin: 0;
+    padding: 20px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+#torzs {
+    width: 1125px;
+    margin: 0;
+    padding: 0;
+}
+
+#cikk {
+    float: left;
+    width: 720px;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#kommentek {
+    float: right;
+    width: 300px;
+    height: 1300px;
+    margin: 0;
+    padding: 20px;
+    background-color: #efefef;
+}
+
+.komment { /*Nincs megadva: valószínűleg direkt!*/
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+h1 {
+    color: #333333;
+    font-size: 32px;
+}
+
+h2 {
+    color: #f15d22;
+    font-size: 24px;
+}
+
+img {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
